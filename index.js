@@ -1,3 +1,4 @@
+'use strict';
 import { DeviceEventEmitter, NativeModules } from 'react-native';
 
 export default class KeyboardEvent {

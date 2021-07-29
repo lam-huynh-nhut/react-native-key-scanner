@@ -9,14 +9,17 @@
   "keywords": [
     "react",
     "react-native",
-    "react-component",
+    "react-native-component",
+    "react-native-key-scanner",
+    "barcode",
     "keyboard"
   ],
   "author": "Lam Huynh",
   "license": "MIT",
   "repository": "https://gitlab.newoceaninfosys.com/lam.huynh/react-native-key-scanner",
   "bugs": "https://gitlab.newoceaninfosys.com/lam.huynh/react-native-key-scanner/issues",
-  "dependencies": {
-    "react-native": "^0.64.2"
-  }
+  "peerDependencies": {
+    "react-native": ">=0.57.0"
+  },
+  "homepage": "https://gitlab.newoceaninfosys.com/lam.huynh/react-native-key-scanner"
 }
