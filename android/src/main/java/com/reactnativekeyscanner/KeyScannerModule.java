@@ -24,7 +24,7 @@ public class KeyScannerModule extends ReactContextBaseJavaModule {
   public static final String NAME = "KeyScanner";
   private ReactContext mReactContext;
   private DeviceEventManagerModule.RCTDeviceEventEmitter mJSModule = null;
-  private static KeyboardModule instance = null;
+  private static KeyScannerModule instance = null;
   private long last_up = 0;
   private String input_cache = "";
   private int submitKeycode = 66;
@@ -35,7 +35,7 @@ public class KeyScannerModule extends ReactContextBaseJavaModule {
     mReactContext = reactContext;
   }
 
-  public static KeyboardModule getInstance() {
+  public static KeyScannerModule getInstance() {
     return instance;
   }
 
