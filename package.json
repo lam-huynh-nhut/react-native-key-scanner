@@ -16,7 +16,7 @@
   "license": "MIT",
   "repository": "https://gitlab.newoceaninfosys.com/lam.huynh/react-native-key-scanner",
   "bugs": "https://gitlab.newoceaninfosys.com/lam.huynh/react-native-key-scanner/issues",
-  "peerDependencies": {
-    "react-native": ">=0.51"
+  "dependencies": {
+    "react-native": "^0.64.2"
   }
 }
